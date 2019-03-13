@@ -2,11 +2,114 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e415d787-71dc-466b-a31f-249ba9041bef" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cameraMatrix.csv" beforeDir="false" afterPath="$PROJECT_DIR$/cameraMatrix.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/distCoeffs.csv" beforeDir="false" afterPath="$PROJECT_DIR$/distCoeffs.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cc-test-images-2/IMG_20190308_130106.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cc-test-images-2/IMG_20190308_130112.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cc-test-images-2/IMG_20190308_130126.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cc-test-images-2/IMG_20190308_130133.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cc-test-images-2/IMG_20190308_130147.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cc-test-images-2/IMG_20190308_130158.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cc-test-images-2/IMG_20190308_130216.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cc-test-images-2/IMG_20190308_130226.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cc-test-images-2/IMG_20190308_130237.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cc-test-images-2/IMG_20190308_130245.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cc-test-images-2/IMG_20190308_130255.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cc-test-images-2/IMG_20190308_130302.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cc-test-images-2/IMG_20190308_130313.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cc-test-images-2/IMG_20190308_130345.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cc-test-images-2/IMG_20190308_130356.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cc-test-images-2/IMG_20190308_130406.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cc-test-images-2/IMG_20190308_130419.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cc-test-images-2/IMG_20190308_130428.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cc-test-images-2/IMG_20190308_130436.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cc-test-images-2/IMG_20190308_130449.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cc-test-images-2/IMG_20190308_130458.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cc-test-images-2/IMG_20190308_130507.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cc-test-images-2/IMG_20190308_130522.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cc-test-images-2/IMG_20190308_130537.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cc-test-images-2/IMG_20190308_130547.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cc-test-images-2/IMG_20190308_130554.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cc-test-images-2/IMG_20190308_130602.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cc-test-images-2/IMG_20190308_130610.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cc-test-images-2/IMG_20190308_130637.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cc-test-images-2/IMG_20190308_130640.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cc-test-images-2/IMG_20190308_130647.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cc-test-images-2/IMG_20190308_130655.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cc-test-images-2/IMG_20190308_130706.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cc-test-images-2/IMG_20190308_130720.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cc-test-images-2/IMG_20190308_130724.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cc-test-images-2/IMG_20190308_130730.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cc-test-images-2/IMG_20190308_130740.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cc-test-images-2/IMG_20190308_130747.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cc-test-images-2/IMG_20190308_130752.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cc-test-images-2/IMG_20190308_130756.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cc-test-images-2/IMG_20190308_130801.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cc-test-images-2/IMG_20190308_130805.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cc-test-images-2/IMG_20190308_130811.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cc-test-images-2/IMG_20190308_130822.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cc-test-images-2/IMG_20190308_130826.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cc-test-images-2/IMG_20190308_130845.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cc-test-images-2/IMG_20190308_130850.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cc-test-images-2/IMG_20190308_130856.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cc-test-images-2/IMG_20190308_130915.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cc-test-images-2/IMG_20190308_130923.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cc-test-images-2/IMG_20190308_130930.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cc-test-images-2/IMG_20190308_130934.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cc-test-images-2/IMG_20190308_130938.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cc-test-images-2/IMG_20190308_130946.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cc-test-images-2/IMG_20190308_130952.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cc-test-images-2/IMG_20190308_130959.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cc-test-images-2/IMG_20190308_131005.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cc-test-images-2/IMG_20190308_131010.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cc-test-images-2/IMG_20190308_131017.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cc-test-images-2/IMG_20190308_131022.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cc-test-images-2/IMG_20190308_131028.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cc-test-images-2/IMG_20190308_131035.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cc-test-images-2/IMG_20190308_131050.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cc-test-images-2/IMG_20190308_131755.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cc-test-images-2/IMG_20190308_131807.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cc-test-images-2/IMG_20190308_131815.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cc-test-images-2/IMG_20190308_131828.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cc-test-images-2/IMG_20190308_131838.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cc-test-images-2/IMG_20190308_131842.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cc-test-images-2/IMG_20190308_131849.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cc-test-images-2/IMG_20190308_131857.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cc-test-images-2/IMG_20190308_131903.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cc-test-images-2/IMG_20190308_131911.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cc-test-images-2/IMG_20190308_131918.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cc-test-images/IMG_20190305_104000.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cc-test-images/IMG_20190305_104003.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cc-test-images/IMG_20190305_104010.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cc-test-images/IMG_20190305_104015.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cc-test-images/IMG_20190305_104028.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cc-test-images/IMG_20190305_104037.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cc-test-images/IMG_20190305_104048.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cc-test-images/IMG_20190305_104057.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cc-test-images/IMG_20190305_104109.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cc-test-images/IMG_20190305_104119.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cc-test-images/IMG_20190305_104122.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cc-test-images/IMG_20190305_104126.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cc-test-images/IMG_20190305_104156.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cc-test-images/IMG_20190305_104220.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cc-test-images/IMG_20190305_104231.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cc-test-images/IMG_20190305_104238.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cc-test-images/IMG_20190305_104240.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cc-test-images/IMG_20190305_104243.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cc-test-images/IMG_20190305_104246.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cc-test-images/IMG_20190305_104250.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cc-test-images/IMG_20190305_104257.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cc-test-images/IMG_20190305_104301.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cc-test-images/IMG_20190305_104307.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cc-test-images/IMG_20190305_104312.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cc-test-images/IMG_20190305_104315.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cc-test-images/IMG_20190305_104321.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cc-test-images/IMG_20190305_104324.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cc-test-images/IMG_20190305_104329.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/distCoeffs.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pic.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resultCropped.jpg" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,16 +119,42 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="38" column="10" lean-forward="true" selection-start-line="38" selection-start-column="10" selection-end-line="38" selection-end-column="10" />
+            <state relative-caret-position="75">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Camera.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="248">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cameraCalibROI.csv">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cameraDistCoeffs.csv">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -49,6 +178,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Main.py" />
+        <option value="$PROJECT_DIR$/Camera.py" />
       </list>
     </option>
   </component>
@@ -64,6 +194,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -75,11 +206,10 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Main.py" />
+    <property name="last_opened_file_path" value="$USER_HOME$/UAV/uav1/dn-workdir/darknet" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
@@ -134,7 +264,7 @@
     <frame x="0" y="25" width="1366" height="743" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24981412" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17546469" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -154,18 +284,45 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/cameraMatrix.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cameraCalibROI.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cameraDistCoeffs.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cameraOptMatrix.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="38" column="10" lean-forward="true" selection-start-line="38" selection-start-column="10" selection-end-line="38" selection-end-column="10" />
+        <state relative-caret-position="75">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cameraMatrix.csv">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/Camera.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
