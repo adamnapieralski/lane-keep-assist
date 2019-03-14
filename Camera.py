@@ -1,11 +1,14 @@
 import cv2
 import numpy as np
 import glob
+import os
 
 class Camera:
 
     cameraMatrix = []
+    cameraOptMatrix = []
     cameraDistCoeffs = []
+    cameraCalibROI = []
 
     calibChessboardPattern = (6, 6)
     calibImgsPath = glob.glob("./ccalib-test-images-2/*")
@@ -19,28 +22,37 @@ class Camera:
         for image in self.calibImgsPath:
             calibImg = cv2.imread(image)
             imH, imW = calibImg.shape[:2]
-            imgReSize = (int(imW), int(imH))
-            calibImg = cv2.resize(calibImg, imgReSize)
+            imgSize = (imW, imH)
+            # imgReSize = (int(imW), int(imH))
+            #calibImg = cv2.resize(calibImg, imgSize)
             ret, corners = cv2.findChessboardCorners(calibImg, self.calibChessboardPattern)
             cv2.drawChessboardCorners(calibImg, self.calibChessboardPattern, corners, ret)
             if ret:
                 imgPoints.append(corners)
                 objPoints.append(objPt)
+                print(self.calibImgsPath.index(image), ": ", os.path.basename(image))
 
-        retval, cameraMatrix, distCoeffs, rvecs, tvecs = cv2.calibrateCamera(objPoints, imgPoints, imgReSize, None,
-                                                                             None)
+        retval, cameraMatrix, distCoeffs, rvecs, tvecs = cv2.calibrateCamera(objPoints, imgPoints, imgSize, None, None)
 
         if retval:
             optAlpha = 1
-            optCameraMatrix, roi = cv2.getOptimalNewCameraMatrix(cameraMatrix, distCoeffs, imgReSize, optAlpha)
+            optCameraMatrix, roi = cv2.getOptimalNewCameraMatrix(cameraMatrix, distCoeffs, imgSize, optAlpha)
+            np.savetxt('cameraMatrix.csv', cameraMatrix)
             np.savetxt('cameraOptMatrix.csv', optCameraMatrix)
             np.savetxt('cameraDistCoeffs.csv', distCoeffs)
             np.savetxt('cameraCalibROI.csv', roi)
 
     def loadCameraProperties(self):
         self.cameraMatrix = np.genfromtxt('cameraMatrix.csv')
+        self.cameraOptMatrix = np.genfromtxt('cameraOptMatrix.csv')
         self.cameraDistCoeffs = np.genfromtxt('cameraDistCoeffs.csv')
+        self.cameraCalibROI = np.genfromtxt('cameraCalibROI.csv')
 
     def undistortImage(self, img):
-        imgUndist = cv2.undistort(img, self.cameraMatrix, self.cameraDistCoeffs)
-        cv2.imwrite('IMG_20190311_152834_result.jpg', img)
+        imgUndist = cv2.undistort(img, self.cameraMatrix, self.cameraDistCoeffs, None, self.cameraOptMatrix)
+        cv2.imwrite('road_test_1_result.jpg', imgUndist)
+        x, y, w, h = self.cameraCalibROI
+        x, y, w, h = int(x), int(y), int(w), int(h)
+        imgUndist = imgUndist[y:y + h, x:x + w]
+        cv2.imwrite('road_test_1_result_cropped.jpg', imgUndist)
+        return imgUndist
