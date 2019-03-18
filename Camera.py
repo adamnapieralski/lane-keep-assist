@@ -13,7 +13,9 @@ class Camera:
     imageSize = []
 
     calibChessboardPattern = (6, 6)
-    calibImgsPath = glob.glob("./ccalib-test-images-2/*")
+    calibImgsPath = glob.glob("./ccalib-test-images-2/720x1280/*.jpg")
+
+    sourceImg = 'samples/video_snap_1.png'
 
     def calibrateCamera(self):
         objPoints = []
@@ -54,27 +56,58 @@ class Camera:
         imH, imW = img.shape[:2]
         self.imageSize = (imW, imH)
         imgUndist = cv2.undistort(img, self.cameraMatrix, self.cameraDistCoeffs, None, self.cameraOptMatrix)
-        cv2.imwrite('road_test_1_result.jpg', imgUndist)
+        cv2.imwrite(self.sourceImg.replace('.png', '_result.png'), imgUndist)
         x, y, w, h = self.cameraCalibROI
         x, y, w, h = int(x), int(y), int(w), int(h)
         imgUndist = imgUndist[y:y + h, x:x + w]
         imgUndist = cv2.resize(imgUndist, self.imageSize)
-        cv2.imwrite('road_test_1_result_cropped_scaled.jpg', imgUndist)
+        cv2.imwrite(self.sourceImg.replace('.png', '_result_cropped_scaled.png'), imgUndist)
         return imgUndist
 
     def perspectiveTransform(self, img):
 
-        srcPoints = np.array([[self.imageSize[0] / 2 - 725, self.imageSize[1]],
-                     [self.imageSize[0] / 2 + 725, self.imageSize[1]],
-                     [self.imageSize[0] / 2 + 190, self.imageSize[1] / 2],
-                     [self.imageSize[0] / 2 - 190, self.imageSize[1] / 2]], dtype=np.float32)
+        srcPoints = np.float32([[170, self.imageSize[1]], [1164, self.imageSize[1]],
+                                [688, self.imageSize[1] * 0.55], [576, self.imageSize[1] * 0.55]])
+        # np.array([[self.imageSize[0] / 2 - 470, self.imageSize[1]],
+        #              [self.imageSize[0] / 2 + 470, self.imageSize[1]],
+        #              [self.imageSize[0] / 2 + 190, self.imageSize[1] / 2],
+        #              [self.imageSize[0] / 2 - 190, self.imageSize[1] / 2]], dtype=np.float32)
 
-        dstPoints = np.array([[self.imageSize[0] / 2 - 440, self.imageSize[1]],
-                     [self.imageSize[0] / 2 + 440, self.imageSize[1]],
-                     [self.imageSize[0] / 2 + 440, self.imageSize[1] / 2],
-                     [self.imageSize[0] / 2 - 440, self.imageSize[1] / 2]], dtype=np.float32)
+        dstPoints = np.float32([[self.imageSize[0] / 4, self.imageSize[1]],
+                                 [self.imageSize[0] * 3 / 4, self.imageSize[1]],
+                                 [self.imageSize[0] * 3 / 4, self.imageSize[1] * 0.1],
+                                 [self.imageSize[0] / 4, self.imageSize[1] * 0.1]])
+
+        # np.array([[self.imageSize[0] / 2 - 440, self.imageSize[1]],
+        #          [self.imageSize[0] / 2 + 440, self.imageSize[1]],
+        #          [self.imageSize[0] / 2 + 440, self.imageSize[1] / 2],
+        #          [self.imageSize[0] / 2 - 440, self.imageSize[1] / 2]], dtype=np.float32)
 
         transMat = cv2.getPerspectiveTransform(srcPoints, dstPoints)
         imgTrans = cv2.warpPerspective(img, transMat, self.imageSize)
-        cv2.imwrite('road_test_1_result_cropped_trans.jpg', imgTrans)
+        cv2.imwrite(self.sourceImg.replace('.png', '_result_cs_trans.png'), imgTrans)
         return imgTrans
+
+    def colorTransforms(self, img):
+        b, g, r = cv2.split(img)
+        cv2.imwrite('samples/color_results/bgr/video_snap_1_b.png', b)
+        cv2.imwrite('samples/color_results/bgr/video_snap_1_g.png', g)
+        cv2.imwrite('samples/color_results/bgr/video_snap_1_r.png', r)
+        _, rthresh = cv2.threshold(r, 120, 255, cv2.THRESH_BINARY)
+        cv2.imwrite('samples/color_results/bgr/video_snap_1_rthresh.png', rthresh)
+
+        imgHLS = cv2.cvtColor(img, cv2.COLOR_BGR2HLS)
+        h, l, s = cv2.split(imgHLS)
+        cv2.imwrite('samples/color_results/hls/video_snap_1_h.png', h)
+        cv2.imwrite('samples/color_results/hls/video_snap_1_l.png', l)
+        cv2.imwrite('samples/color_results/hls/video_snap_1_s.png', s)
+
+        imgHSV = cv2.cvtColor(img, cv2.COLOR_BGR2HSV)
+        h, s, v = cv2.split(imgHSV)
+        cv2.imwrite('samples/color_results/hsv/video_snap_1_h.png', h)
+        cv2.imwrite('samples/color_results/hsv/video_snap_1_s.png', s)
+        cv2.imwrite('samples/color_results/hsv/video_snap_1_v.png', v)
+
+
+
+

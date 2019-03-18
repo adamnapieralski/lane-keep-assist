@@ -6,12 +6,15 @@ camera = Camera()
 
 # camera.calibrateCamera()
 camera.loadCameraProperties()
-img = cv2.imread('./road_test_1.jpg')
+
+sourceImg = 'samples/video_snap_1.png'
+img = cv2.imread(sourceImg)
 imgUndist = camera.undistortImage(img)
 # cv2.namedWindow("w1")
 # cv2.imshow("w1", imgUndist)
 
-camera.perspectiveTransform(imgUndist)
+imgTrans = camera.perspectiveTransform(imgUndist)
+camera.colorTransforms(imgTrans)
 
 c = cv2.waitKey(0)
 if 'q' == chr(c & 255):
