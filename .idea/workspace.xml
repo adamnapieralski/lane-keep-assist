@@ -3,17 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="e415d787-71dc-466b-a31f-249ba9041bef" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Camera.py" beforeDir="false" afterPath="$PROJECT_DIR$/Camera.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cameraCalibROI.csv" beforeDir="false" afterPath="$PROJECT_DIR$/cameraCalibROI.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cameraDistCoeffs.csv" beforeDir="false" afterPath="$PROJECT_DIR$/cameraDistCoeffs.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cameraMatrix.csv" beforeDir="false" afterPath="$PROJECT_DIR$/cameraMatrix.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cameraOptMatrix.csv" beforeDir="false" afterPath="$PROJECT_DIR$/cameraOptMatrix.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/road_test_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/road_test_1_result.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/road_test_1_result_cropped.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/road_test_1_result_cropped_scaled.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/road_test_1_result_cropped_trans.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/video_snap_1_result.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/video_snap_1_result_cropped_scaled.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/video_snap_1_result_cs_trans.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/pip-selfcheck.json" beforeDir="false" afterPath="$PROJECT_DIR$/venv/pip-selfcheck.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,8 +20,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="49" selection-start-line="15" selection-start-column="49" selection-end-line="15" selection-end-column="49" />
+            <state relative-caret-position="180">
+              <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -38,8 +32,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Camera.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="173">
-              <caret line="98" selection-start-line="98" selection-end-line="98" />
+            <state relative-caret-position="240">
+              <caret line="34" selection-start-line="34" selection-end-line="35" selection-end-column="39" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -48,19 +42,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/LKA_note1.ipynb">
+        <entry file="file://$PROJECT_DIR$/LKA_notebook.ipynb">
           <provider selected="true" editor-type-id="ipnb-editor">
             <state>
-              <selected id="0" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/.PyCharmCE2018.3/system/python_stubs/1928188549/cv2/cv2/__init__.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="98175">
-              <caret line="6560" column="4" selection-start-line="6560" selection-start-column="4" selection-end-line="6560" selection-end-column="4" />
+              <selected id="1" />
             </state>
           </provider>
         </entry>
@@ -81,16 +66,21 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Main.py" />
-        <option value="$PROJECT_DIR$/Camera.py" />
         <option value="$PROJECT_DIR$/LKA_note1.ipynb" />
+        <option value="$PROJECT_DIR$/Camera.py" />
+        <option value="$PROJECT_DIR$/Untitled.ipynb" />
+        <option value="$PROJECT_DIR$/note_1.ipynb" />
+        <option value="$PROJECT_DIR$/Main.py" />
+        <option value="$PROJECT_DIR$/test_1.ipynb" />
+        <option value="$PROJECT_DIR$/LKA_note.ipynb" />
+        <option value="$PROJECT_DIR$/LKA_notebook.ipynb" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="108" />
+    <option name="x" value="96" />
     <option name="y" value="27" />
-    <option name="width" value="1201" />
+    <option name="width" value="1191" />
     <option name="height" value="527" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -99,6 +89,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -110,12 +101,11 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$USER_HOME$/UAV/uav1/dn-workdir/darknet" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="IpnbConfigurable" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -129,7 +119,24 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.Main">
+    <configuration name="lane-keep-assist" type="JupiterNotebook" factoryName="Jupyter Notebook">
+      <module name="lane-keep-assist" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="additionalOptions" value="" />
+      <option name="ipnbHost" value="127.0.0.1" />
+      <option name="ipnbPort" value="8888" />
+      <method v="2" />
+    </configuration>
     <configuration name="Main" type="PythonConfigurationType" factoryName="Python">
       <module name="lane-keep-assist" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -209,37 +216,57 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/LKA_note1.ipynb" />
+    <entry file="file://$PROJECT_DIR$/Untitled.ipynb" />
+    <entry file="file:///run/user/1000/jupyter/nbserver-18826-open.html" />
+    <entry file="file:///run/user/1000/jupyter/nbserver-9227-open.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_1.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$USER_HOME$/.PyCharmCE2018.3/system/python_stubs/1928188549/cv2/cv2/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98175">
+        <state relative-caret-position="338">
           <caret line="6560" column="4" selection-start-line="6560" selection-start-column="4" selection-end-line="6560" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="49" selection-start-line="15" selection-start-column="49" selection-end-line="15" selection-end-column="49" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
+    <entry file="file://$PROJECT_DIR$/LKA_note.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Camera.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="98" selection-start-line="98" selection-end-line="98" />
+        <state relative-caret-position="240">
+          <caret line="34" selection-start-line="34" selection-end-line="35" selection-end-column="39" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LKA_note1.ipynb">
+    <entry file="file://$PROJECT_DIR$/LKA_notebook.ipynb">
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
-          <selected id="0" />
+          <selected id="1" />
         </state>
       </provider>
     </entry>

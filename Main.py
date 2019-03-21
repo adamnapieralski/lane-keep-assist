@@ -14,7 +14,7 @@ imgUndist = camera.undistortImage(img)
 # cv2.imshow("w1", imgUndist)
 
 imgTrans = camera.perspectiveTransform(imgUndist)
-camera.colorTransforms(imgTrans)
+# camera.colorTransforms(imgTrans)
 
 c = cv2.waitKey(0)
 if 'q' == chr(c & 255):
