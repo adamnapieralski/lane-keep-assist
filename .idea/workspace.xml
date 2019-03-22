@@ -4,22 +4,6 @@
     <list default="true" id="e415d787-71dc-466b-a31f-249ba9041bef" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LKA_notebook.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/LKA_notebook.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/samples/road_samples_1/raw/sample_road_img_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/samples/road_samples_1/raw/sample_road_img_14.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/samples/road_samples_1/raw/sample_road_img_15.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/samples/road_samples_1/raw/sample_road_img_16.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/samples/road_samples_1/raw/sample_road_img_17.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/samples/road_samples_1/raw/sample_road_img_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/samples/road_samples_1/raw/sample_road_img_3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/samples/road_samples_1/raw/sample_road_img_4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/samples/road_samples_1/undistorted/sample_road_img_14_undist.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/samples/road_samples_1/undistorted/sample_road_img_15_undist.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/samples/road_samples_1/undistorted/sample_road_img_16_undist.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/samples/road_samples_1/undistorted/sample_road_img_17_undist.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/samples/road_samples_1/undistorted/sample_road_img_1_undist.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/samples/road_samples_1/undistorted/sample_road_img_2_undist.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/samples/road_samples_1/undistorted/sample_road_img_3_undist.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/samples/road_samples_1/undistorted/sample_road_img_4_undist.png" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -44,8 +28,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Camera.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1275">
-              <caret line="85" column="8" selection-start-line="85" selection-start-column="8" selection-end-line="85" selection-end-column="68" />
+            <state relative-caret-position="173">
+              <caret line="91" column="8" selection-start-line="91" selection-start-column="8" selection-end-line="91" selection-end-column="32" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -66,7 +50,7 @@
         <entry file="file://$PROJECT_DIR$/LKA_notebook.ipynb">
           <provider selected="true" editor-type-id="ipnb-editor">
             <state>
-              <selected id="8" />
+              <selected id="11" />
             </state>
           </provider>
         </entry>
@@ -276,8 +260,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Camera.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1275">
-          <caret line="85" column="8" selection-start-line="85" selection-start-column="8" selection-end-line="85" selection-end-column="68" />
+        <state relative-caret-position="173">
+          <caret line="91" column="8" selection-start-line="91" selection-start-column="8" selection-end-line="91" selection-end-column="32" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
@@ -287,7 +271,7 @@
     <entry file="file://$PROJECT_DIR$/LKA_notebook.ipynb">
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
-          <selected id="8" />
+          <selected id="11" />
         </state>
       </provider>
     </entry>
