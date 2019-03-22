@@ -3,7 +3,23 @@
   <component name="ChangeListManager">
     <list default="true" id="e415d787-71dc-466b-a31f-249ba9041bef" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/LKA_notebook.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/LKA_notebook.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/samples/double_chessboard_1_result.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/samples/double_chessboard_1_result.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/road_samples_1/sample_road_img_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/road_samples_1/sample_road_img_10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/road_samples_1/sample_road_img_11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/road_samples_1/sample_road_img_12.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/road_samples_1/sample_road_img_13.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/road_samples_1/sample_road_img_14.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/road_samples_1/sample_road_img_15.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/road_samples_1/sample_road_img_16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/road_samples_1/sample_road_img_17.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/road_samples_1/sample_road_img_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/road_samples_1/sample_road_img_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/road_samples_1/sample_road_img_4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/road_samples_1/sample_road_img_5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/road_samples_1/sample_road_img_6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/road_samples_1/sample_road_img_7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/road_samples_1/sample_road_img_8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/road_samples_1/sample_road_img_9.png" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,8 +44,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Camera.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="113">
-              <caret line="57" column="30" selection-start-line="57" selection-start-column="24" selection-end-line="57" selection-end-column="33" />
+            <state relative-caret-position="1275">
+              <caret line="85" column="8" selection-start-line="85" selection-start-column="8" selection-end-line="85" selection-end-column="68" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -50,7 +66,7 @@
         <entry file="file://$PROJECT_DIR$/LKA_notebook.ipynb">
           <provider selected="true" editor-type-id="ipnb-editor">
             <state>
-              <selected id="8" />
+              <selected id="7" />
             </state>
           </provider>
         </entry>
@@ -83,7 +99,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="96" />
+    <option name="x" value="127" />
     <option name="y" value="27" />
     <option name="width" value="1191" />
     <option name="height" value="527" />
@@ -241,16 +257,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Camera.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="57" column="30" selection-start-line="57" selection-start-column="24" selection-end-line="57" selection-end-column="33" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/.PyCharmCE2018.3/system/python_stubs/1928188549/cv2/cv2/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-140">
@@ -268,10 +274,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Camera.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1275">
+          <caret line="85" column="8" selection-start-line="85" selection-start-column="8" selection-end-line="85" selection-end-column="68" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/LKA_notebook.ipynb">
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
-          <selected id="8" />
+          <selected id="7" />
         </state>
       </provider>
     </entry>
