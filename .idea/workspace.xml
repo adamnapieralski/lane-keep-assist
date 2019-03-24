@@ -2,27 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e415d787-71dc-466b-a31f-249ba9041bef" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LKA_notebook.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/LKA_notebook.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/samples/double_chessboard_1_result.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/samples/double_chessboard_1_result.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/samples/road_samples_1/undistorted/sample_road_img_10_undist.png" beforeDir="false" afterPath="$PROJECT_DIR$/samples/road_samples_1/undistorted/sample_road_img_10_undist.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/samples/road_samples_1/undistorted/sample_road_img_11_undist.png" beforeDir="false" afterPath="$PROJECT_DIR$/samples/road_samples_1/undistorted/sample_road_img_11_undist.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/samples/road_samples_1/undistorted/sample_road_img_12_undist.png" beforeDir="false" afterPath="$PROJECT_DIR$/samples/road_samples_1/undistorted/sample_road_img_12_undist.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/samples/road_samples_1/undistorted/sample_road_img_13_undist.png" beforeDir="false" afterPath="$PROJECT_DIR$/samples/road_samples_1/undistorted/sample_road_img_13_undist.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/samples/road_samples_1/undistorted/sample_road_img_5_undist.png" beforeDir="false" afterPath="$PROJECT_DIR$/samples/road_samples_1/undistorted/sample_road_img_5_undist.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/samples/road_samples_1/undistorted/sample_road_img_6_undist.png" beforeDir="false" afterPath="$PROJECT_DIR$/samples/road_samples_1/undistorted/sample_road_img_6_undist.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/samples/road_samples_1/undistorted/sample_road_img_7_undist.png" beforeDir="false" afterPath="$PROJECT_DIR$/samples/road_samples_1/undistorted/sample_road_img_7_undist.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/samples/road_samples_1/undistorted/sample_road_img_8_undist.png" beforeDir="false" afterPath="$PROJECT_DIR$/samples/road_samples_1/undistorted/sample_road_img_8_undist.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/samples/road_samples_1/undistorted/sample_road_img_9_undist.png" beforeDir="false" afterPath="$PROJECT_DIR$/samples/road_samples_1/undistorted/sample_road_img_9_undist.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/samples/road_samples_1/warped/sample_road_img_10_warped.png" beforeDir="false" afterPath="$PROJECT_DIR$/samples/road_samples_1/warped/sample_road_img_10_warped.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/samples/road_samples_1/warped/sample_road_img_11_warped.png" beforeDir="false" afterPath="$PROJECT_DIR$/samples/road_samples_1/warped/sample_road_img_11_warped.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/samples/road_samples_1/warped/sample_road_img_12_warped.png" beforeDir="false" afterPath="$PROJECT_DIR$/samples/road_samples_1/warped/sample_road_img_12_warped.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/samples/road_samples_1/warped/sample_road_img_13_warped.png" beforeDir="false" afterPath="$PROJECT_DIR$/samples/road_samples_1/warped/sample_road_img_13_warped.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/samples/road_samples_1/warped/sample_road_img_5_warped.png" beforeDir="false" afterPath="$PROJECT_DIR$/samples/road_samples_1/warped/sample_road_img_5_warped.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/samples/road_samples_1/warped/sample_road_img_6_warped.png" beforeDir="false" afterPath="$PROJECT_DIR$/samples/road_samples_1/warped/sample_road_img_6_warped.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/samples/road_samples_1/warped/sample_road_img_7_warped.png" beforeDir="false" afterPath="$PROJECT_DIR$/samples/road_samples_1/warped/sample_road_img_7_warped.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/samples/road_samples_1/warped/sample_road_img_8_warped.png" beforeDir="false" afterPath="$PROJECT_DIR$/samples/road_samples_1/warped/sample_road_img_8_warped.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/samples/road_samples_1/warped/sample_road_img_9_warped.png" beforeDir="false" afterPath="$PROJECT_DIR$/samples/road_samples_1/warped/sample_road_img_9_warped.png" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -69,7 +49,7 @@
         <entry file="file://$PROJECT_DIR$/LKA_notebook.ipynb">
           <provider selected="true" editor-type-id="ipnb-editor">
             <state>
-              <selected id="16" />
+              <selected id="18" />
             </state>
           </provider>
         </entry>
@@ -198,7 +178,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1366" height="743" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17546469" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -276,7 +255,7 @@
     <entry file="file://$PROJECT_DIR$/LKA_notebook.ipynb">
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
-          <selected id="16" />
+          <selected id="18" />
         </state>
       </provider>
     </entry>
