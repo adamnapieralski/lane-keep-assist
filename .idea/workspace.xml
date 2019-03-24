@@ -16,7 +16,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="188">
+            <state relative-caret-position="195">
               <caret line="14" selection-start-line="14" selection-end-line="14" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
@@ -28,7 +28,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Camera.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="173">
+            <state relative-caret-position="1320">
               <caret line="91" column="8" selection-start-line="91" selection-start-column="8" selection-end-line="91" selection-end-column="32" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
@@ -40,7 +40,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/.PyCharmCE2018.3/system/python_stubs/1928188549/cv2/cv2/__init__.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-140">
+            <state relative-caret-position="161055">
               <caret line="10752" column="4" selection-start-line="10752" selection-start-column="4" selection-end-line="10752" selection-end-column="4" />
             </state>
           </provider>
@@ -50,7 +50,7 @@
         <entry file="file://$PROJECT_DIR$/LKA_notebook.ipynb">
           <provider selected="true" editor-type-id="ipnb-editor">
             <state>
-              <selected id="0" />
+              <selected id="12" />
             </state>
           </provider>
         </entry>
@@ -186,7 +186,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32903227" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32903227" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -224,33 +224,12 @@
     <entry file="file://$PROJECT_DIR$/LKA_note1.ipynb" />
     <entry file="file://$PROJECT_DIR$/Untitled.ipynb" />
     <entry file="file:///run/user/1000/jupyter/nbserver-18826-open.html" />
-    <entry file="file:///run/user/1000/jupyter/nbserver-9227-open.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_1.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LKA_note.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharmCE2018.3/system/python_stubs/1928188549/cv2/cv2/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-140">
-          <caret line="10752" column="4" selection-start-line="10752" selection-start-column="4" selection-end-line="10752" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file:///run/user/1000/jupyter/nbserver-9227-open.html" />
+    <entry file="file://$PROJECT_DIR$/test_1.ipynb" />
+    <entry file="file://$PROJECT_DIR$/LKA_note.ipynb" />
     <entry file="file://$PROJECT_DIR$/Main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
+        <state relative-caret-position="195">
           <caret line="14" selection-start-line="14" selection-end-line="14" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
@@ -260,7 +239,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Camera.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
+        <state relative-caret-position="1320">
           <caret line="91" column="8" selection-start-line="91" selection-start-column="8" selection-end-line="91" selection-end-column="32" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
@@ -268,10 +247,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/.PyCharmCE2018.3/system/python_stubs/1928188549/cv2/cv2/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161055">
+          <caret line="10752" column="4" selection-start-line="10752" selection-start-column="4" selection-end-line="10752" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/LKA_notebook.ipynb">
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
-          <selected id="0" />
+          <selected id="12" />
         </state>
       </provider>
     </entry>
