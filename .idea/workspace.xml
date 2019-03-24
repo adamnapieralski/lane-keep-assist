@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e415d787-71dc-466b-a31f-249ba9041bef" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/LKA_notebook.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/LKA_notebook.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/road_samples_1/raw/yellow_white_sample.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/road_samples_1/undistorted/yellow_white_sample_undist.png" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -178,6 +179,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1366" height="743" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17546469" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
