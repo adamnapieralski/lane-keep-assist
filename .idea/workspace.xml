@@ -2,7 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e415d787-71dc-466b-a31f-249ba9041bef" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LKA_notebook.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/LKA_notebook.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/road_samples_1/binary/sample_road_img_10_bin.png" beforeDir="false" afterPath="$PROJECT_DIR$/samples/road_samples_1/binary/sample_road_img_10_bin.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/road_samples_1/binary/sample_road_img_11_bin.png" beforeDir="false" afterPath="$PROJECT_DIR$/samples/road_samples_1/binary/sample_road_img_11_bin.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/road_samples_1/binary/sample_road_img_12_bin.png" beforeDir="false" afterPath="$PROJECT_DIR$/samples/road_samples_1/binary/sample_road_img_12_bin.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/road_samples_1/binary/sample_road_img_13_bin.png" beforeDir="false" afterPath="$PROJECT_DIR$/samples/road_samples_1/binary/sample_road_img_13_bin.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/road_samples_1/binary/sample_road_img_5_bin.png" beforeDir="false" afterPath="$PROJECT_DIR$/samples/road_samples_1/binary/sample_road_img_5_bin.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/road_samples_1/binary/sample_road_img_6_bin.png" beforeDir="false" afterPath="$PROJECT_DIR$/samples/road_samples_1/binary/sample_road_img_6_bin.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/road_samples_1/binary/sample_road_img_7_bin.png" beforeDir="false" afterPath="$PROJECT_DIR$/samples/road_samples_1/binary/sample_road_img_7_bin.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/road_samples_1/binary/sample_road_img_8_bin.png" beforeDir="false" afterPath="$PROJECT_DIR$/samples/road_samples_1/binary/sample_road_img_8_bin.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/road_samples_1/binary/sample_road_img_9_bin.png" beforeDir="false" afterPath="$PROJECT_DIR$/samples/road_samples_1/binary/sample_road_img_9_bin.png" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -49,7 +59,7 @@
         <entry file="file://$PROJECT_DIR$/LKA_notebook.ipynb">
           <provider selected="true" editor-type-id="ipnb-editor">
             <state>
-              <selected id="18" />
+              <selected id="22" />
             </state>
           </provider>
         </entry>
@@ -63,6 +73,13 @@
         <option value="Jupyter Notebook" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>out_img</find>
+      <find>print</find>
+      <find>plot</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -82,10 +99,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="127" />
+    <option name="x" value="472" />
     <option name="y" value="27" />
-    <option name="width" value="1191" />
-    <option name="height" value="527" />
+    <option name="width" value="787" />
+    <option name="height" value="555" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -93,6 +110,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -104,11 +122,10 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$USER_HOME$/UAV/uav1/dn-workdir/darknet" />
+    <property name="last_opened_file_path" value="$USER_HOME$/UAV/odroid-tests/jestnaodro" />
     <property name="settings.editor.selected.configurable" value="IpnbConfigurable" />
   </component>
   <component name="RunDashboard">
@@ -177,9 +194,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="25" width="1366" height="743" extended-state="6" />
+    <frame x="0" y="27" width="1366" height="741" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17546469" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.022304833" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -255,7 +273,7 @@
     <entry file="file://$PROJECT_DIR$/LKA_notebook.ipynb">
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
-          <selected id="18" />
+          <selected id="22" />
         </state>
       </provider>
     </entry>
