@@ -4,15 +4,6 @@
     <list default="true" id="e415d787-71dc-466b-a31f-249ba9041bef" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LKA_notebook.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/LKA_notebook.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/samples/road_samples_1/binary/sample_road_img_10_bin.png" beforeDir="false" afterPath="$PROJECT_DIR$/samples/road_samples_1/binary/sample_road_img_10_bin.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/samples/road_samples_1/binary/sample_road_img_11_bin.png" beforeDir="false" afterPath="$PROJECT_DIR$/samples/road_samples_1/binary/sample_road_img_11_bin.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/samples/road_samples_1/binary/sample_road_img_12_bin.png" beforeDir="false" afterPath="$PROJECT_DIR$/samples/road_samples_1/binary/sample_road_img_12_bin.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/samples/road_samples_1/binary/sample_road_img_13_bin.png" beforeDir="false" afterPath="$PROJECT_DIR$/samples/road_samples_1/binary/sample_road_img_13_bin.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/samples/road_samples_1/binary/sample_road_img_5_bin.png" beforeDir="false" afterPath="$PROJECT_DIR$/samples/road_samples_1/binary/sample_road_img_5_bin.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/samples/road_samples_1/binary/sample_road_img_6_bin.png" beforeDir="false" afterPath="$PROJECT_DIR$/samples/road_samples_1/binary/sample_road_img_6_bin.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/samples/road_samples_1/binary/sample_road_img_7_bin.png" beforeDir="false" afterPath="$PROJECT_DIR$/samples/road_samples_1/binary/sample_road_img_7_bin.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/samples/road_samples_1/binary/sample_road_img_8_bin.png" beforeDir="false" afterPath="$PROJECT_DIR$/samples/road_samples_1/binary/sample_road_img_8_bin.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/samples/road_samples_1/binary/sample_road_img_9_bin.png" beforeDir="false" afterPath="$PROJECT_DIR$/samples/road_samples_1/binary/sample_road_img_9_bin.png" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -59,7 +50,7 @@
         <entry file="file://$PROJECT_DIR$/LKA_notebook.ipynb">
           <provider selected="true" editor-type-id="ipnb-editor">
             <state>
-              <selected id="22" />
+              <selected id="23" />
             </state>
           </provider>
         </entry>
@@ -99,10 +90,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="472" />
+    <option name="x" value="118" />
     <option name="y" value="27" />
-    <option name="width" value="787" />
-    <option name="height" value="555" />
+    <option name="width" value="1271" />
+    <option name="height" value="562" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -110,7 +101,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -122,6 +112,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -273,7 +264,7 @@
     <entry file="file://$PROJECT_DIR$/LKA_notebook.ipynb">
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
-          <selected id="22" />
+          <selected id="23" />
         </state>
       </provider>
     </entry>
