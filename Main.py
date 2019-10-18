@@ -1,21 +1,19 @@
 import cv2
 from Camera import Camera
+from LaneKeepAssistSystem import LaneKeepAssistSystem
 
 
 camera = Camera()
+lka = LaneKeepAssistSystem()
 
 # camera.calibrateCamera()
-camera.loadCameraProperties()
+# camera.loadCameraProperties()
 
-sourceImg = 'samples/video_snap_1.png'
-img = cv2.imread(sourceImg)
-imgUndist = camera.undistortImage(img)
-# cv2.namedWindow("w1")
-# cv2.imshow("w1", imgUndist)
+image = cv2.imread("sample_road_img_13.png")
+out_img = lka.process(image)
 
-imgTrans = camera.perspectiveTransform(imgUndist)
-# camera.colorTransforms(imgTrans)
+cv2.imwrite("out.png", out_img)
 
-c = cv2.waitKey(0)
-if 'q' == chr(c & 255):
-    cv2.destroyAllWindows()
+# c = cv2.waitKey(0)
+# if 'q' == chr(c & 255):
+#     cv2.destroyAllWindows()
