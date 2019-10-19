@@ -11,7 +11,7 @@ class Camera:
     distortion_coeffs = []
     ROI = []
 
-    image_size = (1280, 720)
+    image_size = (1296, 972)
 
     chessboard_pattern = (7, 9)
     calibrate_imgs_path = glob.glob("./ccalib-test-images-5/*.jpg")
